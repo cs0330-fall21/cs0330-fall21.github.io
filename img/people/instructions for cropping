@@ -1,0 +1,19 @@
+put all character images in one folder and run this there: 
+for p in *.JPG; do mv $p ${p/JPG/jpg}; done
+mogrify -resize 400x400 *.jpg 
+mogrify -crop 400x266+0+0 *.jpg 
+
+
+people: 
+
+for p in *.JPG; do mv $p ${p/JPG/jpg}; done
+mogrify -resize 266x266 *.jpg 
+mogrify -crop -54+0 *.jpg 
+mogrify -crop +80+0 *.jpg 
+mogrify -rotate "-90" *.jpg 
+
+
+
+
+to crop them to fish size
+mogrify -rotate "90" *.jpg 
