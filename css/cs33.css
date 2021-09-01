@@ -177,9 +177,9 @@ td, th {
 }
 
 #course-info h2 {
-    color: #faec30;
-    text-shadow: 1px 1px 0 rgb(23, 109, 180);
-    -webkit-text-stroke: 2px rgb(23, 109, 180);
+    color: #FED331;
+    text-shadow: 1px 1px 0 #0C457E;
+    -webkit-text-stroke: 2px #0C457E;
 }
 
 #course-info h3, 
