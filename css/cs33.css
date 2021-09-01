@@ -176,12 +176,6 @@ td, th {
 
 }
 
-#course-info h2 {
-    color: #FED331;
-    text-shadow: 1px 1px 0 #0C457E;
-    -webkit-text-stroke: 2px #0C457E;
-}
-
 #course-info h3, 
 #course-info p,
 #course-info li {
@@ -277,7 +271,9 @@ td, th {
 
 .section-title{
     font-family: SchoolBus;
-    color: black;
+    color: #FED331;
+    text-shadow: 1px 1px 0 #0C457E;
+    -webkit-text-stroke: 2px #0C457E;
     font-size:40px;
 }
 
@@ -353,10 +349,6 @@ footer a {
     font-family: Montserrat, Geneva, sans-serif;
     text-transform: capitalize;
     font-weight: 600;
-}
-
-.navbar-custom a {
-    color: black;
 }
 
 .navbar-custom .nav li a {
@@ -661,8 +653,10 @@ body {
 
 .course-logo-font{
     font-family: SchoolBus;
-    color: #faec30;
-    font-size:40px;
+    font-size: 25px;
+    color: #FED331;
+    text-shadow: 1px 1px 0 #0C457E;
+    -webkit-text-stroke: 2px #0C457E;
 }
 
 .staff-flexbox{
