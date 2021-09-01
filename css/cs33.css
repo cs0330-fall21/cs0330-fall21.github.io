@@ -23,6 +23,11 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 4px;
 }
 
+h3{
+    color: #104eac;
+    text-shadow: 1px 2px 0px rgb(254, 211, 49, 0.7);
+}
+
 p {
     margin: 0 0 25px;
     font-size: 15px;
@@ -163,7 +168,7 @@ td, th {
 }
 /* Alternate background colors (and adjust text colors to compensate) */
 .section-header {
-    background-color: #fefeff;
+    background-color: #eafdff;
     height:50px;
 }
 
@@ -176,7 +181,11 @@ td, th {
 
 }
 
-#course-info h3, 
+#course-info h3 {
+    color: #104eac;
+    text-shadow: 1px 2px 0px rgb(254, 211, 49, 0.7);
+}
+
 #course-info p,
 #course-info li {
     color: black;
@@ -191,32 +200,32 @@ td, th {
 }
 
 #course-info a {
-    color: #D21242;
+    color: #0C457E;
 }
 
 #assignments {
-    background-color: white;
+    background-color: #eafdff;
 }
 
 #assignments a {
-    color: #D21242;
+    color: #0C457E;
 }
 
 #lectures {
-    background-color: white;
+    background-color: #eafdff;
 }
 
 #lectures a {
-    color: #D21242;
+    color: #0C457E;
 }
 
 #hours {
-    background-color: white;
+    background-color: #eafdff;
 }
 
 #staff {
     margin-top:-30px;
-    background-color: lightgrey;
+    background-color: rgb(225, 226, 250);
     width: 100%;
     align-items: center;
 }
@@ -244,7 +253,7 @@ td, th {
 }
 /* Custom section types */
 .content-section:before {
-    background-color: #D21242;
+    background-color: #0C457E;
     height: 35px;
     width: 100%;
     left: 0;
@@ -272,8 +281,8 @@ td, th {
 .section-title{
     font-family: SchoolBus;
     color: #FED331;
-    text-shadow: 1px 1px 0 #0C457E;
-    -webkit-text-stroke: 2px #0C457E;
+    text-shadow: 2px 2px 0 #0C457E;
+    -webkit-text-stroke: 1px #0C457E;
     font-size:40px;
 }
 
@@ -307,7 +316,7 @@ footer p {
 }
 
 footer a {
-    color: #D21242;
+    color: #0C457E;
 }
 
 .spacing {
@@ -417,7 +426,7 @@ footer a {
 
     .navbar-collapse{
         margin-top:-50px;
-        background-color: #d6d6d6;
+        background-color: #fff2b7;
         color:black;
     }
 }
@@ -454,7 +463,7 @@ footer {
 
 .intro .brand-heading {
     font-size: 50px;
-    color:#D21242;
+    color: #104eac;
 }
 
 .intro-body{
@@ -652,12 +661,12 @@ body {
 
 .course-logo-font{
     font-family: SchoolBus;
-    font-size: 40px;
+    font-size: 25px;
     color: #FED331;
-    text-shadow: 1px 1px 0 #0C457E;
-    -webkit-text-stroke: 2px #0C457E;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
+    text-shadow: 2px 2px 0 #0C457E;
+    -webkit-text-stroke: 1px #0C457E;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
     padding-left: 3%;
     width: 100rem;
 }
@@ -716,7 +725,7 @@ body {
     overflow: hidden;
     font-size: 22px;
     margin-bottom: 5px;
-    color: #D21242;
+    color: #0C457E;
 }
 
 .ta-login{
