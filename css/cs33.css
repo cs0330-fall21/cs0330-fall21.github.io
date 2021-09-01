@@ -401,9 +401,6 @@ footer a {
         -moz-transition: background .2s ease-in-out, padding .2s ease-in-out;
         transition: background .2s ease-in-out, padding .2s ease-in-out;
     }
-    .navbar-custom a {
-        color: black;
-    }
     .section-title{
         padding-top:8px;
         font-size:30px;
