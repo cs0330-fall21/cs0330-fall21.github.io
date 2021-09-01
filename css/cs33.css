@@ -157,8 +157,8 @@ td, th {
 }
 
 @font-face {
-    font-family: TraderJoes;
-    src: url('../img/font-awesome/fonts/TraderJoes-JYrx.otf')
+    font-family: SchoolBus;
+    src: url('../img/font-awesome/fonts/happy_food/Happy\ Food.otf')
     format('opentype');
 }
 /* Alternate background colors (and adjust text colors to compensate) */
@@ -176,7 +176,11 @@ td, th {
 
 }
 
-#course-info h2 ,
+#course-info h2 {
+    color: #faec30;
+    -webkit-text-stroke: 1px rgb(23, 109, 180);
+}
+
 #course-info h3, 
 #course-info p,
 #course-info li {
@@ -271,7 +275,7 @@ td, th {
 }
 
 .section-title{
-    font-family: TraderJoes;
+    font-family: SchoolBus;
     color: black;
     font-size:40px;
 }
@@ -655,8 +659,8 @@ body {
 }
 
 .course-logo-font{
-    font-family: TraderJoes;
-    color: #D21242;
+    font-family: SchoolBus;
+    color: #faec30;
     font-size:40px;
 }
 
