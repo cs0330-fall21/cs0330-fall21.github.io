@@ -458,9 +458,9 @@ footer {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-		padding-bottom: 50px;
-		padding-top:50px;
-	background-color: rgba(0,0,0,0);
+	padding-bottom: 50px;
+	padding-top:50px;
+	background-color: #eafdff;
 }
 
 .intro .brand-heading {
@@ -478,6 +478,7 @@ footer {
     html, body {
         width: 100%;
 	overflow-x: hidden;
+        background-color: #eafdff;
     }
     .intro  {
         background: white;
