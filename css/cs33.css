@@ -62,18 +62,18 @@ ul {
 /* Tables */
 table {
 
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #bacff5;
     font-size: 1.1em;
     margin-bottom: 40px;
 }
 
 tr:nth-child(2n+1) {
-    background-color: rgba(0,0,0, .1);
+    background-color: #fff2b7;
 }
 
 th {
     height: 3.5em;
-    background-color: rgba(0,0,0, 0.2);
+    background-color: #FED331;
     font-size: 1.05em;
     
 }
@@ -287,7 +287,8 @@ td, th {
 }
 
 .section-title-img{
-    width:30px;
+    width: 100px;
+    object-fit: contain;
 }
 
 @media(min-width:768px) {
