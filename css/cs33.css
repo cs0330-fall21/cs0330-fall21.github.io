@@ -706,6 +706,9 @@ body {
     display: block;
     margin: auto;
     border-radius: 5px;
+    width: 90%;
+    max-height: 280px;
+    object-fit: cover;
 }
 
 .ta-item{
