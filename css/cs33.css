@@ -439,6 +439,10 @@ footer a {
     background-size:600px;
 }
 
+.resources-header {
+    /* margin-left: -2rem; */
+}
+
 footer {
 	width: 100%;
 }
