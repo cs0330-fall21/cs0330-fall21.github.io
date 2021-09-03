@@ -459,7 +459,7 @@ footer {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-	padding-bottom: 50px;
+	/* padding-bottom: 20px; */
 	padding-top:50px;
 	background-color: #eafdff;
 }
