@@ -219,6 +219,9 @@ td, th {
 
 #lectures a {
     color: #0C457E;
+    border-radius: 5px;
+    background-color: rgb(245,231,158);
+    padding: 5px;
 }
 
 #hours {
