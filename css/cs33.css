@@ -64,18 +64,18 @@ ul {
 /* Tables */
 table {
 
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #bacff5;
     font-size: 1.1em;
     margin-bottom: 40px;
 }
 
 tr:nth-child(2n+1) {
-    background-color: rgba(0,0,0, .1);
+    background-color: #fff2b7;
 }
 
 th {
     height: 3.5em;
-    background-color: rgba(0,0,0, 0.2);
+    background-color: #FED331;
     font-size: 1.05em;
     
 }
@@ -289,7 +289,8 @@ td, th {
 }
 
 .section-title-img{
-    width:30px;
+    width: 100px;
+    object-fit: contain;
 }
 
 @media(min-width:768px) {
@@ -458,9 +459,9 @@ footer {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-		padding-bottom: 50px;
-		padding-top:50px;
-	background-color: rgba(0,0,0,0);
+	padding-bottom: 50px;
+	padding-top:50px;
+	background-color: #eafdff;
 }
 
 .intro .brand-heading {
@@ -478,6 +479,7 @@ footer {
     html, body {
         width: 100%;
 	overflow-x: hidden;
+        background-color: #eafdff;
     }
     .intro  {
         background: white;
@@ -670,7 +672,7 @@ body {
     padding-top: 2rem;
     padding-bottom: 4rem;
     padding-left: 3%;
-    width: 100rem;
+    width: 45rem;
 }
 
 .staff-flexbox{
@@ -704,6 +706,9 @@ body {
     display: block;
     margin: auto;
     border-radius: 5px;
+    width: 90%;
+    max-height: 280px;
+    object-fit: cover;
 }
 
 .ta-item{
