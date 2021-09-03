@@ -1,182 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="icon" href="img/bus_icon.png" type="image/x-icon" />
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="A website for CS0330 students at Brown University">
-        <meta name="author" content="CS0330 TA Staff">
 
-        <title>CS0330 | Brown University</title>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A website for CS0330 students at Brown University">
+    <meta name="author" content="CS0330 TA Staff">
 
-        <!-- CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/cs33.css" rel="stylesheet">
+    <title>CS0330 | Brown University</title>
 
-        <!-- Custom Fonts -->
-        <link href="img/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <!-- <link href="http://fonts.googleapis.com/css?family=Lora|Montserrat:400,700" rel="stylesheet" type="text/css"> -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-        <link href="https://use.typekit.net/ykv7sgo.css" rel="stylesheet" type="text/css">
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/cs33.css" rel="stylesheet">
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
+    <!-- Custom Fonts -->
+    <link href="img/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="http://fonts.googleapis.com/css?family=Lora|Montserrat:400,700" rel="stylesheet" type="text/css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://use.typekit.net/ykv7sgo.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-    </head>
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-    <div id="fix-this" style = "overflow-x:hidden;">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <div id="fix-this" style="overflow-x:hidden;">
         <!-- Navigation -->
         <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
             <a href="#" class="navbar-brand course-logo-font">Magic 3chool Bu3</a>
-        <div class="container">
+            <div class="container">
 
-            <!-- Logo -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-            <i style="color:#faec30;" class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <!-- <i class="fa fa-code"></i> -->
-                </a>
-            </div>
+                <!-- Logo -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-main-collapse">
+                        <i style="color:#faec30;" class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">
+                        <!-- <i class="fa fa-code"></i> -->
+                    </a>
+                </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse pull-right">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden"><a href="#page-top"></a></li>
-                    <li><a class="page-scroll" href="#course-info">Course Info</a></li>
-                    <li><a class="page-scroll" href="#assignments">Assignments</a></li>
-                    <li><a class="page-scroll" href="#lectures">Lectures</a></li>
-                    <li><a class="page-scroll" href="#hours">Hours</a></li>
-                    <li><a class="page-scroll" href="#staff">Staff</a></li>
-                </ul>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse pull-right">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <li><a class="page-scroll" href="#course-info">Course Info</a></li>
+                        <li><a class="page-scroll" href="#assignments">Assignments</a></li>
+                        <li><a class="page-scroll" href="#lectures">Lectures</a></li>
+                        <li><a class="page-scroll" href="#hours">Hours</a></li>
+                        <li><a class="page-scroll" href="#staff">Staff</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+            <!-- /.container -->
         </nav>
 
         <!-- Intro Header -->
         <header class="intro">
-        <div class="intro-body">
+            <div class="intro-body">
+                <div class="container">
+                    <div class="col col-md-16"></div>
+                    <img class="section-title-img" src="img/bus_icon.png">
+                    <h1 class="brand-heading">
+                        Introduction to
+                        Computer Systems
+                    </h1>
+                    <p class="intro-body">
+                        This course covers the organization of computer systems (in terms of storage units,
+                        caches, processors, and I/O controllers) and teaches you assembly and C language
+                        programming.
+                    </p>
+                </div>
+                <div class="col col-md-16">
+                    <img id="home-img" onclick="changeImg()" class="intro-img mySlides"
+                        src="img/Magic-School-Bus-NEW.png" style="border-radius:5px;">
+                </div>
+            </div>
+    </div>
+    </header>
+    <!-- Course Information Section -->
+    <section id="course-info">
+        <div class="container content-section">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-title">Course Information <img class="section-title-img" src="img/bus_icon.png">
+                    </h2>
+                    <!--        <section id="course-info">-->
+                    <!--            <div class="row section-header">-->
+                    <!--                <div class="col-md-6 info-box-opaque">-->
+                    <!--                    <h2>Course Information</h2>-->
+                </div>
+            </div>
             <div class="container">
                 <div class="row">
-                    <div class="col col-md-8">
-                        <img class="section-title-img" src="img/bus_icon.png">
-                        <h1 class="brand-heading">
-                            Introduction to
-                            Computer Systems
-                        </h1>
-                        <p class="intro-body">
-                            This course covers the organization of computer systems (in terms of storage units, caches, processors, and I/O controllers) and teaches you assembly and C language programming.
-                        </p>
+                    <div class="col-md-10 col-md-offset-1">
+                        <p>CS0330 is taught by <a href="http://www.cs.brown.edu/~twd/">Professor Tom Doeppner
+                                (twd)</a>. Lectures are held every Monday, Wednesday, and Friday, from 2:00 to 2:50
+                            PM at Salomon Center DECI, and are also streamed live on Zoom.</p>
+                        <p>The course is intended primarily for computer science students and computer engineers,
+                            though it is open to anyone with adequate preparation interested in learning the topics
+                            covered in the course announcement. It fulfills a core requirement for the A.B. and
+                            Sc.B. tracks in computer science, and is required for the Computer Engineering
+                            concentration.</p>
+                        <p>In order to take CS 33, you should have taken CS 15, CS 18 or CS 19 (or have Tom's
+                            permission). Familiarity with a C-like language (such as C++ or Java) will help you with
+                            this course. However, knowing C is not a prerequisite for the course.</p>
                     </div>
-                    <div class="col col-md-4">
-                        <img id="home-img" onclick="changeImg()" class="intro-img mySlides" src="img/everything-bag-seas-no-bg.png" style="border-radius:5px;">
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <blockquote>"High-level computer architecture and systems programming. The course covers the
+                            organization of computer systems (in terms of storage units, caches, processors, and I/O
+                            controllers) and teaches students assembly-language programming and C language
+                            programming. Extensive programming exercises introduce students to systems-level
+                            programming on Linux systems, as well as to multithreaded programming with POSIX
+                            threads. Students will learn the basics of how compilers work and will be introduced to
+                            the functions of operating systems."</blockquote>
+                        <tagline> – Course Announcement</tagline>
+                    </div>
+                </div>
+
+                <!-- Documents & Guides -->
+                <div id="docs-and-guides" class="row inset-box">
+                    <div class="info-box-opaque">
+                        <div class="col-md-8 col-sm-12">
+                            <h3>Guides &amp; Documents</h3>
+                            <p>Check out the following useful documents for questions you have about course
+                                organization, code style, or tools we use.</p>
+                            <ul class="col-md-4">
+                                <li><a
+                                        href="https://docs.google.com/document/d/1AkH2NdqA77ApjHylFbhtS1vPAL-IFb7jXhEejvWX2_I/edit">Syllabus</a>
+                                </li>
+                                <li><a
+                                        href="https://docs.google.com/document/d/1gbiZJrVp7caCC0FseQgrb9EThxUluiiCMaCyFr6xFcg/edit?usp=sharing">Collaboration
+                                        Policy</a></li>
+                                <li><a
+                                        href="https://docs.google.com/document/d/1SeaGcab-AIirfKjm0ydPlDzo5S6J9azE60XSX8Li0_E/edit?usp=sharing">TA
+                                        Hours Policy</a></li>
+                                <li><a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSd0tt4ItGuJ_zompVVsmQBZFLxz5kzDqdOD7U_A7uVpLB7OuQ/viewform?usp=sf_link">Collaboration
+                                        Policy & TA Hours Agreement</a></li>
+                            </ul>
+                            <ul class="col-md-4">
+                                <li><a href="docs/guides/cprimer.pdf">C Primer</a></li>
+                                <li><a href="docs/guides/style.pdf">Style Guide</a></li>
+                                <li><a
+                                        href="https://docs.google.com/document/d/1CdAzWt8ikCJrxL_gOOHxxJAX-2Ld_ax_3cuYfjOxgIg/edit#">Github
+                                        & Gradescope Guide</a></li>
+                                <li><a
+                                        href="https://docs.google.com/document/d/18Nj6NTCBi2FbrJf226nyHZGTixS5j2iHgv3T9Em6Bns/edit?usp=sharing">Developing
+                                        Locally Guide</a></li>
+
+                                <!-- <li>Optimization in C</li> -->
+                                <!-- Link Unavailable -->
+                                <!-- <li><a href="docs/guides/buffer3.pdf">Buffer 3 Guide*</a></li> -->
+                            </ul>
+                            <ul class="col-md-4">
+
+                                <li><a
+                                        href="https://docs.google.com/document/d/12yNY-Jy8YHVCbEugOEUkoI5i7bCvZyx4CRbjV_9dVbg/edit?usp=sharing">GDB
+                                        Guide</a></li>
+                                <li><a href="docs/guides/vgg.pdf">Verbose GDB Guide</a></li>
+                                <li><a
+                                        href="https://docs.google.com/document/d/1woV6A_1E5UfeMsQjItpuAqvtr7SX9o9m-_7EQcBvK9U/edit?usp=sharing">x86-64
+                                        Guide</a></li>
+                                <li><a href="docs/guides/tools.pdf">Tooling Guide</a></li>
+                                <li><a href="docs/guides/survival_guide.pdf">Project Survival Guide</a></li>
+                                <li><a
+                                        href="https://brown.zoom.us/rec/share/9DPkjlmr8gCmXZ3zyJoOoqqbq4xhnBYkBPjhonaFpLMX9uOd5vSMlHEqbhT36jzx.2Z04ZhQvQShzpB8R?startTime=1600286316000">GDB/Git
+                                        Gearup</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-4">
+                            <h3>Quick links</h3>
+                            <ul>
+                                <li><a href="https://piazza.com/brown/fall2020/csci0330/home">Piazza</a> (ask and
+                                    answer questions)</li>
+                                <li><a href="https://canvas.brown.edu/courses/1082662">Canvas</a> (grades)</li>
+                                <li><a href="https://forms.gle/WeWmDfPySnSGqbqJ6">Anonymous Feedback Form</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        </header>
-        <!-- Course Information Section -->
-        <section id="course-info">
+    </section>
+
+    <!-- Assignments Section -->
+    <section id="assignments">
         <div class="container content-section">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="section-title">Course Information <img class="section-title-img" src="img/bus_icon.png"></h2>
-<!--        <section id="course-info">-->
-<!--            <div class="row section-header">-->
-<!--                <div class="col-md-6 info-box-opaque">-->
-<!--                    <h2>Course Information</h2>-->
-                </div>
-            </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <p>CS0330 is taught by <a href="http://www.cs.brown.edu/~twd/">Professor Tom Doeppner (twd)</a>. Lectures are held every Monday, Wednesday, and Friday, from 2:00 to 2:50 PM at Salomon Center DECI, and are also streamed live on Zoom.</p>
-                    <p>The course is intended primarily for computer science students and computer engineers, though it is open to anyone with adequate preparation interested in learning the topics covered in the course announcement. It fulfills a core requirement for the A.B. and Sc.B. tracks in computer science, and is required for the Computer Engineering concentration.</p>
-                    <p>In order to take CS 33, you should have taken CS 15, CS 18 or CS 19 (or have Tom's permission). Familiarity with a C-like language (such as C++ or Java) will help you with this course. However, knowing C is not a prerequisite for the course.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <blockquote>"High-level computer architecture and systems programming. The course covers the organization of computer systems (in terms of storage units, caches, processors, and I/O controllers) and teaches students assembly-language programming and C language programming. Extensive programming exercises introduce students to systems-level programming on Linux systems, as well as to multithreaded programming with POSIX threads. Students will learn the basics of how compilers work and will be introduced to the functions of operating systems."</blockquote>
-                    <tagline> – Course Announcement</tagline>
-                </div>
-            </div>
+                    <h2 class="section-title">Assignments <img class="section-title-img" src="img/bus_icon.png">
+                    </h2>
+                    <p>If you're looking for hours for projects or labs, please see <a class="page-scroll"
+                            href="#hours">hours &rarr;</a></p>
 
-            <!-- Documents & Guides -->
-            <div id="docs-and-guides" class="row inset-box">
-                <div class="info-box-opaque">
-                <div class="col-md-8 col-sm-12">
-                    <h3>Guides &amp; Documents</h3>
-                    <p>Check out the following useful documents for questions you have about course organization, code style, or tools we use.</p>
-                    <ul class="col-md-4">
-                        <li><a href="https://docs.google.com/document/d/1AkH2NdqA77ApjHylFbhtS1vPAL-IFb7jXhEejvWX2_I/edit">Syllabus</a></li>
-            <li><a href="https://docs.google.com/document/d/1gbiZJrVp7caCC0FseQgrb9EThxUluiiCMaCyFr6xFcg/edit?usp=sharing">Collaboration Policy</a></li>
-            <li><a href="https://docs.google.com/document/d/1SeaGcab-AIirfKjm0ydPlDzo5S6J9azE60XSX8Li0_E/edit?usp=sharing">TA Hours Policy</a></li>
-                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSd0tt4ItGuJ_zompVVsmQBZFLxz5kzDqdOD7U_A7uVpLB7OuQ/viewform?usp=sf_link">Collaboration Policy & TA Hours Agreement</a></li>
-                    </ul>
-                    <ul class="col-md-4">
-                        <li><a href="docs/guides/cprimer.pdf">C Primer</a></li>
-            <li><a href="docs/guides/style.pdf">Style Guide</a></li>
-                        <li><a href="https://docs.google.com/document/d/1CdAzWt8ikCJrxL_gOOHxxJAX-2Ld_ax_3cuYfjOxgIg/edit#">Github & Gradescope Guide</a></li>
-	<li><a href="https://docs.google.com/document/d/18Nj6NTCBi2FbrJf226nyHZGTixS5j2iHgv3T9Em6Bns/edit?usp=sharing">Developing Locally Guide</a></li>
-
-                        <!-- <li>Optimization in C</li> --> <!-- Link Unavailable -->
-            <!-- <li><a href="docs/guides/buffer3.pdf">Buffer 3 Guide*</a></li> -->
-                    </ul>
-                    <ul class="col-md-4">
-
-            <li><a href="https://docs.google.com/document/d/12yNY-Jy8YHVCbEugOEUkoI5i7bCvZyx4CRbjV_9dVbg/edit?usp=sharing">GDB Guide</a></li>
-	    <li><a href="docs/guides/vgg.pdf">Verbose GDB Guide</a></li>
-            <li><a href="https://docs.google.com/document/d/1woV6A_1E5UfeMsQjItpuAqvtr7SX9o9m-_7EQcBvK9U/edit?usp=sharing">x86-64 Guide</a></li>
-            <li><a href="docs/guides/tools.pdf">Tooling Guide</a></li>
-	    <li><a href="docs/guides/survival_guide.pdf">Project Survival Guide</a></li>
-		<li><a href="https://brown.zoom.us/rec/share/9DPkjlmr8gCmXZ3zyJoOoqqbq4xhnBYkBPjhonaFpLMX9uOd5vSMlHEqbhT36jzx.2Z04ZhQvQShzpB8R?startTime=1600286316000">GDB/Git Gearup</a></li>
-		
-</ul>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <h3>Quick links</h3>
-                    <ul>
-                        <li><a href="https://piazza.com/brown/fall2020/csci0330/home">Piazza</a> (ask and answer questions)</li>
-                        <li><a href="https://canvas.brown.edu/courses/1082662">Canvas</a> (grades)</li>
-                        <li><a href="https://forms.gle/WeWmDfPySnSGqbqJ6">Anonymous Feedback Form</a></li>
-                    </ul>
-                </div>
-            </div>
-            </div>
-        </div>
-        </section>
-
-        <!-- Assignments Section -->
-        <section id="assignments">
-        <div class="container content-section">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="section-title">Assignments <img class="section-title-img" src="img/bus_icon.png"></h2>
-                    <p>If you're looking for hours for projects or labs, please see <a class="page-scroll" href="#hours">hours &rarr;</a></p>
-
-                <!-- Projects -->
+                    <!-- Projects -->
                     <h3>Projects</h3>
-                    <p>All projects are due at 11:59 pm EST on the specified due date. To accept your handin, we must have a collaboration policy signed and dated. To check if you have turned one in, please check <a href="https://goo.gl/forms/YSWzu3OVPWfMv74t1">this form &rarr;</a></p>
+                    <p>All projects are due at 11:59 pm EST on the specified due date. To accept your handin, we
+                        must have a collaboration policy signed and dated. To check if you have turned one in,
+                        please check <a href="https://goo.gl/forms/YSWzu3OVPWfMv74t1">this form &rarr;</a></p>
                     <table class="assignment">
-                        <tr><th>Name</th><th>Out</th><th>Due</th></tr>
-            <tr><td>Maze</td><td>9/11</td><td>9/23</td></tr>
-	    <tr><td>Data / Example </td><td>9/23</td><td>9/30</td></tr>
-			    <tr><td>Traps</td><td>9/30</td><td>10/7</td></tr>
-			    <tr><td>Buffer</td><td>10/7</td><td>10/19</td></tr>
-            <tr><td> Shell 1 </td><td>10/19</td><td>10/26</td></tr>
-            <tr><td>Shell 2</td><td>10/26</td><td>11/2</td></tr>
-	    <tr><td>Malloc</td><td>11/2</td><td>11/16</td></tr>
-	    <tr><td>Database</td><td>11/16</td><td>12/10</td></tr>
+                        <tr>
+                            <th>Name</th>
+                            <th>Out</th>
+                            <th>Due</th>
+                        </tr>
+                        <tr>
+                            <td>Maze</td>
+                            <td>9/11</td>
+                            <td>9/23</td>
+                        </tr>
+                        <tr>
+                            <td>Data / Example </td>
+                            <td>9/23</td>
+                            <td>9/30</td>
+                        </tr>
+                        <tr>
+                            <td>Traps</td>
+                            <td>9/30</td>
+                            <td>10/7</td>
+                        </tr>
+                        <tr>
+                            <td>Buffer</td>
+                            <td>10/7</td>
+                            <td>10/19</td>
+                        </tr>
+                        <tr>
+                            <td> Shell 1 </td>
+                            <td>10/19</td>
+                            <td>10/26</td>
+                        </tr>
+                        <tr>
+                            <td>Shell 2</td>
+                            <td>10/26</td>
+                            <td>11/2</td>
+                        </tr>
+                        <tr>
+                            <td>Malloc</td>
+                            <td>11/2</td>
+                            <td>11/16</td>
+                        </tr>
+                        <tr>
+                            <td>Database</td>
+                            <td>11/16</td>
+                            <td>12/10</td>
+                        </tr>
                     </table>
                 </div>
             </div>
@@ -184,154 +264,571 @@
                 <!-- Labs -->
                 <div class="col-xs-12 col-md-6">
                     <h3>Labs</h3>
-                    <p>Labs are released on Mondays – with a few exceptions. They will be done in pairs and can be completed on your own time or during lab hours. During lab hours, you will be able to work with others and get help from TAs. You must complete each lab and have it submitted via Gradescope by 11:59 pm EST the night they are due. Submissions during the week after that in which a lab was assigned will receive half credit.</p>
+                    <p>Labs are released on Mondays – with a few exceptions. They will be done in pairs and can be
+                        completed on your own time or during lab hours. During lab hours, you will be able to work
+                        with others and get help from TAs. You must complete each lab and have it submitted via
+                        Gradescope by 11:59 pm EST the night they are due. Submissions during the week after that in
+                        which a lab was assigned will receive half credit.</p>
                     <table class="assignment">
-                        <tr><th>Name</th><th>Out</th><th>Due</th></tr>
-            <tr><td>Lab 1: Setup and GDB</td><td>9/11</td><td>9/20</td></tr>
-            <tr><td> Lab 2: Strings and Parsing </td><td>9/20</td><td>9/27</td></tr>
-			    <tr><td>Lab 3: atoi</td><td>9/28</td><td>10/4</td></tr>
-            <tr><td>Lab 4: Makefiles</td><td>10/5</td><td>10/11</td></tr>
-	    <tr><td>Lab 5: Signals</td><td>10/23</td><td>10/29</td></tr>
-			    <tr><td>Lab 6: Alloc</td><td>10/30</td><td>11/7</td></tr>
-            <tr><td>Lab 7: Networking</td><td>11/9</td><td>11/17</td></tr>
-            <tr><td>Lab 8: Concurrency</td><td>11/16</td><td>11/22</td></tr>
+                        <tr>
+                            <th>Name</th>
+                            <th>Out</th>
+                            <th>Due</th>
+                        </tr>
+                        <tr>
+                            <td>Lab 1: Setup and GDB</td>
+                            <td>9/11</td>
+                            <td>9/20</td>
+                        </tr>
+                        <tr>
+                            <td> Lab 2: Strings and Parsing </td>
+                            <td>9/20</td>
+                            <td>9/27</td>
+                        </tr>
+                        <tr>
+                            <td>Lab 3: atoi</td>
+                            <td>9/28</td>
+                            <td>10/4</td>
+                        </tr>
+                        <tr>
+                            <td>Lab 4: Makefiles</td>
+                            <td>10/5</td>
+                            <td>10/11</td>
+                        </tr>
+                        <tr>
+                            <td>Lab 5: Signals</td>
+                            <td>10/23</td>
+                            <td>10/29</td>
+                        </tr>
+                        <tr>
+                            <td>Lab 6: Alloc</td>
+                            <td>10/30</td>
+                            <td>11/7</td>
+                        </tr>
+                        <tr>
+                            <td>Lab 7: Networking</td>
+                            <td>11/9</td>
+                            <td>11/17</td>
+                        </tr>
+                        <tr>
+                            <td>Lab 8: Concurrency</td>
+                            <td>11/16</td>
+                            <td>11/22</td>
+                        </tr>
                     </table>
                 </div>
                 <!-- Homeworks -->
                 <div class="col-xs-12 col-md-6">
                     <h3>Homeworks</h3>
-                    <p>Homeworks are required for graduate students taking the course, and optional for everyone else. Only homeworks submitted by graduate students will be graded. You can submit your homework through Canvas. If you have questions about the homework, please attend Tom's office hours.</p>
+                    <p>Homeworks are required for graduate students taking the course, and optional for everyone
+                        else. Only homeworks submitted by graduate students will be graded. You can submit your
+                        homework through Canvas. If you have questions about the homework, please attend Tom's
+                        office hours.</p>
                     <table class="assignment">
-            <tr><th>Name</th><th>Out</th><th>Due</th><th>Supplementary Files</th></tr>
-    	    <tr><td>HW1 / Solution</td><td>9/11</td><td>9/17</td><td>[Recording]</td></tr>
-    	    <tr><td>HW2 / Solution</td><td>9/18</td><td>9/24</td><td>[Recording]</td></tr>
-                        <tr><td>HW3 / Solution</td><td>9/25</td><td>10/1</td><td>[Recording]</td></tr>
-			    <tr><td>HW4 / Solution</td><td>10/2</td><td>10/8</td><td>[Recording]</td></tr>
-			    <tr><td>HW5 / Solution</td><td>10/9</td><td>10/15</td><td>[Recording]</td></tr>
-			    <tr><td>HW6 / Solution</td><td>10/16</td><td>10/22</td><td>[Recording]</td></tr>
-			    <tr><td>HW7 / Solution</td><td>10/23</td><td>10/29</td><td>[Recording]</td></tr>
-			    <tr><td>HW8 / Solution</td><td>10/30</td><td>11/5</td><td>[Recording]</td></tr>
+                        <tr>
+                            <th>Name</th>
+                            <th>Out</th>
+                            <th>Due</th>
+                            <th>Supplementary Files</th>
+                        </tr>
+                        <tr>
+                            <td>HW1 / Solution</td>
+                            <td>9/11</td>
+                            <td>9/17</td>
+                            <td>[Recording]</td>
+                        </tr>
+                        <tr>
+                            <td>HW2 / Solution</td>
+                            <td>9/18</td>
+                            <td>9/24</td>
+                            <td>[Recording]</td>
+                        </tr>
+                        <tr>
+                            <td>HW3 / Solution</td>
+                            <td>9/25</td>
+                            <td>10/1</td>
+                            <td>[Recording]</td>
+                        </tr>
+                        <tr>
+                            <td>HW4 / Solution</td>
+                            <td>10/2</td>
+                            <td>10/8</td>
+                            <td>[Recording]</td>
+                        </tr>
+                        <tr>
+                            <td>HW5 / Solution</td>
+                            <td>10/9</td>
+                            <td>10/15</td>
+                            <td>[Recording]</td>
+                        </tr>
+                        <tr>
+                            <td>HW6 / Solution</td>
+                            <td>10/16</td>
+                            <td>10/22</td>
+                            <td>[Recording]</td>
+                        </tr>
+                        <tr>
+                            <td>HW7 / Solution</td>
+                            <td>10/23</td>
+                            <td>10/29</td>
+                            <td>[Recording]</td>
+                        </tr>
+                        <tr>
+                            <td>HW8 / Solution</td>
+                            <td>10/30</td>
+                            <td>11/5</td>
+                            <td>[Recording]</td>
+                        </tr>
                     </table>
                 </div>
             </div>
         </div>
-        </section>
+    </section>
 
-        <!-- Lectures -->
-        <section id="lectures">
-            <div class="container content-section">
-                <div class="row">
-                    <div class="col-md-10">
-                        <h2 class="section-title">Lectures <img class="section-title-img" src="img/bus_icon.png"></h2>
-                        <p>Lectures are held every Monday, Wednesday, and Friday at Salomon Center DECI, and are streamed live on Zoom. Check the Canvas page for the Zoom link.</p>
-                        <table class="lecture">
-                            <tr><th>Date<span style="white-space: pre;">    </span></th><th>Topic</th><th>Readings</th><th>Notes</th><th>Recording</th><th>Take Away Questions</th><th>Code</th></tr>
-  <tr><td>Sept 8</td><td>Intro to CSCI 330; Intro to C</td>
-	  <td></td><td><a href="lecture/01IntroX.pdf">[Slides]</a><br><a href="lecture/01Intro.pdf">[Notes]</a></td><td><a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=09d5d402-ed49-44fa-9252-ac31013c7ad5">[Recording]</a></td><td><a href="https://docs.google.com/document/d/1AoWxIMrqWc302-dBpeiebi5X2PydObBDQ5I1w1BGu14/edit?usp=sharing">[Questions]</a></td></tr>
-  <tr><td>Sep 10</td><td>Intro to C</td><td></td>
-      <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Sept 13</td><td>Intro to C</td><td></td>
-        <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Sept 15</td><td>Intro to C</td><td></td>
-      <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Sept 17</td><td>Intro to C</td><td> </td>
-      <td>[Slides]<br>[Notes]</td><td>[Recording]</td>
-      <td>[Questions]</td><td></td></tr>
-  <tr><td>Sept 20</td><td>Intro to C</td><td> </td>
-      <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Sept 22</td><td>Data Representation</td><td>Chapter 2</td>
-      <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Sept 24</td><td>Data Representation</td><td>Chapter 2</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Sept 27</td><td>Data Representation</td><td>Chapter 2</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Sept 29</td><td>x86 Assembler Language</td><td>Sections 3.1, 3.2</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Oct 1</td><td>x86 Assembler Language</td><td>Sections 3.4, 3.5</td>
-      <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td></tr>
-  <tr><td>Oct 4</td><td>x86 Assembler Language</td><td>Section 3.6</td>
-	  <td>[Slides]</a><br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Oct 6</td><td>x86 Assembler Language</td><td>Section 3.7</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Oct 8</td><td>x86 Assembler Language</td><td>Section 3.10</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Oct 11</td><td>Holiday!</td>
-      <td><br><br></td><td></td><td></td><td></td></tr>
-  <tr><td>Oct 13</td><td>Processor Arch. and Performance</td><td>Sections 8.1-8.4</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Oct 15</td><td>Memory Hierarchy I</td><td>Section 10.1</td>
-    <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Oct 18</td><td>Caching</td><td>Sections 10.2-10.11</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Oct 20</td><td>Architecture and OS</td><td>Sections 8.5-8.6</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Oct 22</td><td>Shells and Files</td><td> </td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Oct 25</td><td>Files</td><td>Section 7.1-7.9</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Oct 27</td><td>Signals</td><td>Section 9.9</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Oct 29</td><td>Signals</td><td>Section 9.9</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Nov 1</td><td>Memory Hierarchy II</td><td>Sections 9.1, 9.2, 9.6, 9.8</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Nov 3</td><td>Linking and Loading</td><td>Sections 7.10-7.13</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Nov 5</td><td>Memory Management</td><td>Sections 11.1-11.4</td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Nov 8</td><td>Memory Management</td>
-	  <td></td><td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td></tr>
-  <tr><td>Nov 10</td><td>Virtual Memory</td><td>Chapter 12</td>
-	  <td>[Slides]<br>[Notes]</td>[Recording]</td><td>[Questions]</td><td></td><td></td></tr>
-  <tr><td>Nov 12</td><td>Virtual Memory</td><td> </td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Nov 15</td><td>Network Programming</td><td> </td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td>[Questions]</td><td></td></tr>
-  <tr><td>Nov 17</td><td>Network Programming</td><td> </td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td></td><td></td></tr>
-  <tr><td>Nov 19</td><td>Libraries</td><td> </td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td></td><td></td></tr>
-  <tr><td>Nov 22</td><td>Concurrent Programming</td><td> </td>
-	  <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td></td><td></td></tr>
-  <tr><td>Nov 24</td><td>Holiday!</td><td> </td>
-        <td><br><br></td><td></td><td></td><td></td></tr>  
-  <tr><td>Nov 26</td><td>Holiday!</td><td> </td>
-            <td><br><br></td><td></td><td></td><td></td></tr> 
-                    
-  <tr><td>Nov 29</td><td>Concurrent Programming</td><td> </td>
-                            <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td></td><td></td></tr>
-  <tr><td>Dec 1</td><td>Concurrent Programming</td><td> </td>
-                            <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td></td><td></td></tr>
-  <tr><td>Dec 3</td><td>Concurrent Programming</td><td> </td>
-                            <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td></td><td></td></tr>
-  <tr><td>Dec 6</td><td>Concurrent Programming</td><td> </td>
-                                <td>[Slides]<br>[Notes]</td><td>[Recording]</td><td></td><td></td></tr>
-                            </table>
-                        <h3>Project Gear Ups</h3>
-                        <p>
-                            Looking for guidance as you start your project each week? Want a refresher on what material has been covered and an outline of what you will be writing? Come to our Project Gear Up Sessions! We’ll also be going over how to use the demo(s) and tester(s) and other relevant scripts for each project!
-                        <p>
-                            For each project, we will hold a Gear Up session a day after it is released.  All Gear Up sessions will be held via Zoom, and check the course calendar for time and Zoom link. Come prepared with questions!!
-                        </p>
-                        <table class="gear-up">
-                            <tr><th>Date</th><th>Topic</th><th>Slides</th><th>Video</th></tr>
-			    <tr><td>9/12</td><td>Maze</td><td> Slides </td><td> Video </td></tr>
-			    <tr><td>9/24</td><td>Data</td><td>Slides</td><td>Video</td></tr>
-                            <tr><td>10/1</td><td>Traps</td><td>Slides</td><td>Video</td></tr>
-				<tr><td>10/8</td><td>Buffer</td>><td>Slides</td><td>Video</td></tr>
-				<tr><td>10/20</td><td>Shell 1</td><td>Slides</td><td>Video</td></tr>
-			    <tr><td>10/27</td><td>Shell 2</td><td>Slides</td><td>Video</td></tr>
-			    <tr><td>11/3</td><td>Malloc</td><td>Slides</td><td>Video</td></tr>
-				<tr><td>11/17</td><td>Database</td><td>Slides</td><td>Video</td></tr>
-                        </table>
-                    </div>
+    <!-- Lectures -->
+    <section id="lectures">
+        <div class="container content-section">
+            <div class="row">
+                <div class="col-md-10">
+                    <h2 class="section-title">Lectures <img class="section-title-img" src="img/bus_icon.png"></h2>
+                    <p>Lectures are held every Monday, Wednesday, and Friday at Salomon Center DECI, and are
+                        streamed live on Zoom. Check the Canvas page for the Zoom link.</p>
+                    <table class="lecture">
+                        <tr>
+                            <th>Date<span style="white-space: pre;"> </span></th>
+                            <th>Topic</th>
+                            <th>Readings</th>
+                            <th>Notes</th>
+                            <th>Recording</th>
+                            <th>Take Away Questions</th>
+                            <th>Code</th>
+                        </tr>
+                        <tr>
+                            <td>Sept 8</td>
+                            <td>Intro to CSCI 330; Intro to C</td>
+                            <td></td>
+                            <td><a href="lecture/01IntroX.pdf" target="_blank">Slides</a><br><a
+                                    href="lecture/01Intro.pdf" target="_blank">Notes</a></td>
+                            <td><a href="https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=09d5d402-ed49-44fa-9252-ac31013c7ad5"
+                                    target="_blank">Recording</a></td>
+                            <td><a href="https://docs.google.com/document/d/1AoWxIMrqWc302-dBpeiebi5X2PydObBDQ5I1w1BGu14/edit?usp=sharing"
+                                    target="_blank">Questions</a></td>
+                        </tr>
+                        <tr>
+                            <td>Sep 10</td>
+                            <td>Intro to C</td>
+                            <td></td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Sept 13</td>
+                            <td>Intro to C</td>
+                            <td></td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Sept 15</td>
+                            <td>Intro to C</td>
+                            <td></td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Sept 17</td>
+                            <td>Intro to C</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Sept 20</td>
+                            <td>Intro to C</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Sept 22</td>
+                            <td>Data Representation</td>
+                            <td>Chapter 2</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Sept 24</td>
+                            <td>Data Representation</td>
+                            <td>Chapter 2</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Sept 27</td>
+                            <td>Data Representation</td>
+                            <td>Chapter 2</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Sept 29</td>
+                            <td>x86 Assembler Language</td>
+                            <td>Sections 3.1, 3.2</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 1</td>
+                            <td>x86 Assembler Language</td>
+                            <td>Sections 3.4, 3.5</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                        </tr>
+                        <tr>
+                            <td>Oct 4</td>
+                            <td>x86 Assembler Language</td>
+                            <td>Section 3.6</td>
+                            <td>[Slides]</a><br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 6</td>
+                            <td>x86 Assembler Language</td>
+                            <td>Section 3.7</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 8</td>
+                            <td>x86 Assembler Language</td>
+                            <td>Section 3.10</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 11</td>
+                            <td>Holiday!</td>
+                            <td><br><br></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 13</td>
+                            <td>Processor Arch. and Performance</td>
+                            <td>Sections 8.1-8.4</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 15</td>
+                            <td>Memory Hierarchy I</td>
+                            <td>Section 10.1</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 18</td>
+                            <td>Caching</td>
+                            <td>Sections 10.2-10.11</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 20</td>
+                            <td>Architecture and OS</td>
+                            <td>Sections 8.5-8.6</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 22</td>
+                            <td>Shells and Files</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 25</td>
+                            <td>Files</td>
+                            <td>Section 7.1-7.9</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 27</td>
+                            <td>Signals</td>
+                            <td>Section 9.9</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Oct 29</td>
+                            <td>Signals</td>
+                            <td>Section 9.9</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nov 1</td>
+                            <td>Memory Hierarchy II</td>
+                            <td>Sections 9.1, 9.2, 9.6, 9.8</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nov 3</td>
+                            <td>Linking and Loading</td>
+                            <td>Sections 7.10-7.13</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nov 5</td>
+                            <td>Memory Management</td>
+                            <td>Sections 11.1-11.4</td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nov 8</td>
+                            <td>Memory Management</td>
+                            <td></td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                        </tr>
+                        <tr>
+                            <td>Nov 10</td>
+                            <td>Virtual Memory</td>
+                            <td>Chapter 12</td>
+                            <td>[Slides]<br>[Notes]</td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nov 12</td>
+                            <td>Virtual Memory</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nov 15</td>
+                            <td>Network Programming</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td>[Questions]</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nov 17</td>
+                            <td>Network Programming</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nov 19</td>
+                            <td>Libraries</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nov 22</td>
+                            <td>Concurrent Programming</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nov 24</td>
+                            <td>Holiday!</td>
+                            <td> </td>
+                            <td><br><br></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Nov 26</td>
+                            <td>Holiday!</td>
+                            <td> </td>
+                            <td><br><br></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td>Nov 29</td>
+                            <td>Concurrent Programming</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Dec 1</td>
+                            <td>Concurrent Programming</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Dec 3</td>
+                            <td>Concurrent Programming</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Dec 6</td>
+                            <td>Concurrent Programming</td>
+                            <td> </td>
+                            <td>[Slides]<br>[Notes]</td>
+                            <td>[Recording]</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <h3>Project Gear Ups</h3>
+                    <p>
+                        Looking for guidance as you start your project each week? Want a refresher on what material
+                        has been covered and an outline of what you will be writing? Come to our Project Gear Up
+                        Sessions! We’ll also be going over how to use the demo(s) and tester(s) and other relevant
+                        scripts for each project!
+                    <p>
+                        For each project, we will hold a Gear Up session a day after it is released. All Gear Up
+                        sessions will be held via Zoom, and check the course calendar for time and Zoom link. Come
+                        prepared with questions!!
+                    </p>
+                    <table class="gear-up">
+                        <tr>
+                            <th>Date</th>
+                            <th>Topic</th>
+                            <th>Slides</th>
+                            <th>Video</th>
+                        </tr>
+                        <tr>
+                            <td>9/12</td>
+                            <td>Maze</td>
+                            <td> Slides </td>
+                            <td> Video </td>
+                        </tr>
+                        <tr>
+                            <td>9/24</td>
+                            <td>Data</td>
+                            <td>Slides</td>
+                            <td>Video</td>
+                        </tr>
+                        <tr>
+                            <td>10/1</td>
+                            <td>Traps</td>
+                            <td>Slides</td>
+                            <td>Video</td>
+                        </tr>
+                        <tr>
+                            <td>10/8</td>
+                            <td>Buffer</td>><td>Slides</td>
+                            <td>Video</td>
+                        </tr>
+                        <tr>
+                            <td>10/20</td>
+                            <td>Shell 1</td>
+                            <td>Slides</td>
+                            <td>Video</td>
+                        </tr>
+                        <tr>
+                            <td>10/27</td>
+                            <td>Shell 2</td>
+                            <td>Slides</td>
+                            <td>Video</td>
+                        </tr>
+                        <tr>
+                            <td>11/3</td>
+                            <td>Malloc</td>
+                            <td>Slides</td>
+                            <td>Video</td>
+                        </tr>
+                        <tr>
+                            <td>11/17</td>
+                            <td>Database</td>
+                            <td>Slides</td>
+                            <td>Video</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Hours -->
-        <section id="hours">
+    <!-- Hours -->
+    <section id="hours">
         <div class="container content-section">
             <h2 class="section-title">Hours <img class="section-title-img" src="img/bus_icon.png"></h2>
             <div class="row">
@@ -339,30 +836,45 @@
                 <!-- Regular hours -->
                 <div class="col-md-12">
                     <h3>Tom's Office Hours</h3>
-                    <p>Professor Doeppner's hours will be held via Zoom. Check the course calendar for the Zoom link.</p>
+                    <p>Professor Doeppner's hours will be held via Zoom. Check the course calendar for the Zoom link.
+                    </p>
                     <table class="tom-hours">
-                        <tr><td>Monday</td><td>3-4pm</td></tr>
-                        <tr><td>Wednesday</td><td>3-4pm</td></tr>
-                        <tr><td>Friday</td><td>4-5pm</td></tr>
+                        <tr>
+                            <td>Monday</td>
+                            <td>3-4pm</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>3-4pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>4-5pm</td>
+                        </tr>
                     </table>
 
                     <h3>TA Hours</h3>
-            <p>During TA hours, you'll be able to get help from TAs with course concepts as well as project and lab-specific questions. Note that you may not ask questions about labs in project hours (and vice versa) or have a lab checked off during project hours. During conceptual hours, you may not bring up code-specific questions.</p>
+                    <p>During TA hours, you'll be able to get help from TAs with course concepts as well as project and
+                        lab-specific questions. Note that you may not ask questions about labs in project hours (and
+                        vice versa) or have a lab checked off during project hours. During conceptual hours, you may not
+                        bring up code-specific questions.</p>
                     <h3>Signing Up</h3>
                     <p>Sign up for TA hours via <a href="http://signmeup.cs.brown.edu/">signmeup</a>.</p>
 
-                    <iframe src="https://calendar.google.com/calendar/embed?src=c_qhqgs7uer93u4ulhn24d3uu8m4%40group.calendar.google.com&ctz=America%2FNew_York" style="border-width: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-            <!--<iframe class="iframe" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=YnJvd24uZWR1X2p0cjkydDRxcTlkbnNuNmVxM2plc2poYWo4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237CB342&amp;mode=WEEK" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
-                   <!--  <h3>Lab Hours</h3>
+                    <iframe
+                        src="https://calendar.google.com/calendar/embed?src=c_qhqgs7uer93u4ulhn24d3uu8m4%40group.calendar.google.com&ctz=America%2FNew_York"
+                        style="border-width: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    <!--<iframe class="iframe" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=YnJvd24uZWR1X2p0cjkydDRxcTlkbnNuNmVxM2plc2poYWo4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237CB342&amp;mode=WEEK" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+                    <!--  <h3>Lab Hours</h3>
                     <p>During lab hours, you will be able to work with others and ask TAs for help finishing lab. Please show up to one of the following times to work on a lab. Most labs are autograded, but for certain labs you will have to be checked off at these hours too. Note that TAs will not answer project-related questions during lab hours.</p>
                     <iframe class = "iframecal" src="https://calendar.google.com/calendar/b/1/embed?title=Labs&amp;showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=brown.edu_emmv05ed9pbh8ftjq6sgmb6gks%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
                 </div>
             </div>
         </div>
-        </section>
+    </section>
 
-        <!-- Staff -->
-        <section id="staff">
+    <!-- Staff -->
+    <section id="staff">
         <div class="container content-section staff">
             <h2 class="section-title">Staff <img class="section-title-img" src="img/bus_icon.png"></h2>
             <h3>Professor</h3>
@@ -375,31 +887,25 @@
                     <h3 class="ta-name">Tom Doeppner</h3>
                     <p class="ta-login">twd</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Tom has been at Brown CS since its inception (not Brown's, but Brown CS's). He personally installed Brown's first UNIX system and has been into systems ever since. When not doing CS, he likes photography, which he prefers to do underwater, but now does mostly on land.</p>
+                    <p class="ta-bio">Tom has been at Brown CS since its inception (not Brown's, but Brown CS's). He
+                        personally installed Brown's first UNIX system and has been into systems ever since. When not
+                        doing CS, he likes photography, which he prefers to do underwater, but now does mostly on land.
+                    </p>
                 </div>
             </div>
             <h3>HTAs (cs0330headtas@lists.brown.edu)</h3>
             <div class="staff-flexbox">
-                <div class="ta-member">
-                    <div class="ta-img">
-                        <img class="ta-profile" src="img/people/dlichen.png">
-                        <img class="ta-item" src="img/characters/dlichen.png">
-                    </div>
-                    <h3 class="ta-name">Daphne Li-Chen</h3>
-                    <p class="ta-login">dlichen</p>
-                    <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Hello! I'm a senior from Scottsdale, Arizona concentrating in Computer Science. I love doing theater (especially musicals), hiking, camping, and doing some photography. Also I very highkey miss the CIT 3rd floor atrium and getting to see all my friends instead of doing any work, yet still feeling productive because I was in the CIT. My favorite snack is mochi!</p>
-                </div>
 
                 <div class="ta-member">
                     <div class="ta-img">
                         <img class="ta-profile" src="img/people/esattler.png">
                         <img class="ta-item" src="img/characters/esattler.png">
                     </div>
-                    <h3 class="ta-name">Ethan Sattler</h3>
-                    <p class="ta-login">esattler</p>
-                    <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hi! I'm a senior concentrating in Computer Science from Arlington, VA! I enjoy reading, Formula 1 racing, and Operating Systems.</p>
+                    <h3 class="ta-name">Ben Smith</h3>
+                    <p class="ta-login">bsmith28</p>
+                    <p class="ta-pronouns">He/Him</p>
+                    <p class="ta-bio">HHey everyone! I'm a senior concentrating in CS and I'm from La Crosse, WI. I
+                        enjoy playing piano, hiking, and paddling. </p>
                 </div>
 
 
@@ -408,10 +914,25 @@
                         <img class="ta-profile" src="img/people/jfischma.png">
                         <img class="ta-item" src="img/characters/jfischma.png">
                     </div>
-                    <h3 class="ta-name">Jason Fischman</h3>
-                    <p class="ta-login">jfischma</p>
-                    <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hey everyone, I'm a senior studying CS-Econ and I'm from Newton, MA. I'm more of a Whole Foods guy but don't tell the rest of the TAs.</p>
+                    <h3 class="ta-name">Floria Tsui</h3>
+                    <p class="ta-login">ftsui</p>
+                    <p class="ta-pronouns">she/her/hers</p>
+                    <p class="ta-bio">Hi! My name is Floria, and I'm a junior from Ann Arbor, MI, studying computer
+                        science. I love reading, sleeping, and eating potatoes in all of its myriad forms. </p>
+                </div>
+
+                <div class="ta-member">
+                    <div class="ta-img">
+                        <img class="ta-profile" src="img/people/dlichen.png">
+                        <img class="ta-item" src="img/characters/dlichen.png">
+                    </div>
+                    <h3 class="ta-name">Jian Cong</h3>
+                    <p class="ta-login">jloh4</p>
+                    <p class="ta-pronouns">he/him</p>
+                    <p class="ta-bio">Hi, I am Jian Cong or JC! I am a Senior from Singapore, studying Computer Science
+                        and International Relations. Outside of class, I enjoy all kinds of physical activities
+                        (running, gym, hiking, sports, etc.), having good food, playing board games, and debating
+                        politics and current affairs over some drinks. </p>
                 </div>
 
                 <div class="ta-member">
@@ -422,7 +943,8 @@
                     <h3 class="ta-name">Milanca Wang</h3>
                     <p class="ta-login">mwang102</p>
                     <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Hi, I'm Milanca! I'm a senior from Tennessee concentrating in CS :) Outside of class, I like to cook, nap, write, and watch conspiracy videos about space!</p>
+                    <p class="ta-bio">Hi, I'm Milanca! I'm a senior from Tennessee concentrating in CS :) Outside of
+                        class, I like to cook, nap, write, and watch conspiracy videos about space!</p>
                 </div>
             </div>
             <h3>UTAs (cs0330tas@lists.brown.edu)</h3>
@@ -435,7 +957,9 @@
                     <h3 class="ta-name">Aaron Jeyaraj</h3>
                     <p class="ta-login">ajeyaraj</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hi everyone! My name is Aaron, I'm a junior from Singapore concentrating in CS. Outside of class, I like to read and watch (mostly watch) anything sci-fi, spend too much time in YouTube rabbit holes, and make what I'm told are pretty bad jokes.</p>
+                    <p class="ta-bio">Hi everyone! My name is Aaron, I'm a junior from Singapore concentrating in CS.
+                        Outside of class, I like to read and watch (mostly watch) anything sci-fi, spend too much time
+                        in YouTube rabbit holes, and make what I'm told are pretty bad jokes.</p>
                 </div>
 
                 <div class="ta-member">
@@ -447,7 +971,9 @@
                     </h3>
                     <p class="ta-login">achang57</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hey, I'm Adrian. I'm a junior from Carlsbad, CA studying computer science. In my free time I like to shed Charlie Parker, get mad at people in online video games, and waste time (and sometimes money) on gacha. I'm also a big fan of binge reading manga.</p>
+                    <p class="ta-bio">Hey, I'm Adrian. I'm a junior from Carlsbad, CA studying computer science. In my
+                        free time I like to shed Charlie Parker, get mad at people in online video games, and waste time
+                        (and sometimes money) on gacha. I'm also a big fan of binge reading manga.</p>
                 </div>
 
                 <div class="ta-member">
@@ -470,7 +996,9 @@
                     <h3 class="ta-name">Ashley Chang</h3>
                     <p class="ta-login">achang65</p>
                     <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Heyo :)) I'm a junior from the great town of Forest, VA, concentrating in CS + Lit Arts. I enjoy 1) beatboxing, 2) beatboxing, and 3) reading comic books (Y: The Last Man represent!!). You can find me eating fried chicken.</p>
+                    <p class="ta-bio">Heyo :)) I'm a junior from the great town of Forest, VA, concentrating in CS + Lit
+                        Arts. I enjoy 1) beatboxing, 2) beatboxing, and 3) reading comic books (Y: The Last Man
+                        represent!!). You can find me eating fried chicken.</p>
                 </div>
 
                 <div class="ta-member">
@@ -481,7 +1009,8 @@
                     <h3 class="ta-name">Divyam Dang</h3>
                     <p class="ta-login">ddang4</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hi!! I'm a junior concentrating in Computer Science from New Delhi, India. I enjoy playing videogames, watching Formula 1 and sleeping. Excited to see you guys in person.</p>
+                    <p class="ta-bio">Hi!! I'm a junior concentrating in Computer Science from New Delhi, India. I enjoy
+                        playing videogames, watching Formula 1 and sleeping. Excited to see you guys in person.</p>
                 </div>
 
                 <div class="ta-member">
@@ -492,7 +1021,8 @@
                     <h3 class="ta-name">Edward Xing</h3>
                     <p class="ta-login">exing1</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hi! I'm a junior from New Jersey concentrating in Applied Math-Computer Science. In my free time, I enjoy playing table tennis, speedcubing, and performing magic.</p>
+                    <p class="ta-bio">Hi! I'm a junior from New Jersey concentrating in Applied Math-Computer Science.
+                        In my free time, I enjoy playing table tennis, speedcubing, and performing magic.</p>
                 </div>
 
                 <div class="ta-member">
@@ -501,9 +1031,11 @@
                         <img class="ta-item" src="img/characters/ezhang52.png">
                     </div>
                     <h3 class="ta-name">Emily Zhang</h3>
-                    <p class="ta-login">TODO!!</p>
-                    <p class="ta-pronouns">she/they</p>
-                    <p class="ta-bio">Hi! My name's Ell and I'm a junior studying computer science with a focus on software design and full-stack development! I also enjoy art, neuroscience, and dried strawberries in my free time. Come chat with me about cool projects you're working on or your favorite programming languages (it's ok if it isn't C)!</p>
+                    <p class="ta-login">ezhang52</p>
+                    <p class="ta-pronouns">she/her</p>
+                    <p class="ta-bio">Hello! I'm a junior from Massachusetts concentrating in Computer Science and
+                        Visual Arts. During my free time, I like to watch true crime videos and binge dramas. I'm
+                        looking forward to working with you all this semester!</p>
                 </div>
 
                 <div class="ta-member">
@@ -514,7 +1046,9 @@
                     <h3 class="ta-name">Fernando Cisneros</h3>
                     <p class="ta-login">fcisnero</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hey I'm Fernando and I'm a Junior from Napa, California studying CS. In my free time I enjoying running (around campus or to Massachusetts), playing guitar, listening to music, and creating random Spotify playlists.  </p>
+                    <p class="ta-bio">Hey I'm Fernando and I'm a Junior from Napa, California studying CS. In my free
+                        time I enjoying running (around campus or to Massachusetts), playing guitar, listening to music,
+                        and creating random Spotify playlists. </p>
                 </div>
 
                 <div class="ta-member">
@@ -525,7 +1059,9 @@
                     <h3 class="ta-name">Harisen Luby</h3>
                     <p class="ta-login">hluby</p>
                     <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Hey! I'm a junior from Phoenix, Arizona concentrating in CS. I'm kind of obsessed with true crime podcasts and I listen to them any chance I get. Super stoked to be your 33 TA this semester!</p>
+                    <p class="ta-bio">Hey! I'm a junior from Phoenix, Arizona concentrating in CS. I'm kind of obsessed
+                        with true crime podcasts and I listen to them any chance I get. Super stoked to be your 33 TA
+                        this semester!</p>
                 </div>
 
                 <div class="ta-member">
@@ -534,9 +1070,11 @@
                         <img class="ta-item" src="img/characters/ilayzer.png">
                     </div>
                     <h3 class="ta-name">Jacob Axel</h3>
-                    <p class="ta-login">//TODO!!</p>
+                    <p class="ta-login">jaxel</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hi! I'm a Junior from Durham, North Carolina concentrating in Computer Science. I love playing frisbee and watching (and sometimes participating in) student theater on campus. My favorite snack is popcorn!</p>
+                    <p class="ta-bio">Hi, I'm Jacob! I'm a Junior from New York City studying Applied Math and Computer
+                        Science. Outside the classroom I enjoy watching and playing almost every sport, and have
+                        recently been getting back into chess after watching The Queen's Gambit.</p>
                 </div>
 
                 <div class="ta-member">
@@ -547,7 +1085,8 @@
                     <h3 class="ta-name">Jenny Tan</h3>
                     <p class="ta-login">jtan26</p>
                     <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Howdy! I'm Jenny and I'm a junior studying CS from Dallas, Texas. In my free time, I like running, drinking an unhealthy amount of boba, and playing taiko with Gendo Taiko!</p>
+                    <p class="ta-bio">Howdy! I'm Jenny and I'm a junior studying CS from Dallas, Texas. In my free time,
+                        I like running, drinking an unhealthy amount of boba, and playing taiko with Gendo Taiko!</p>
                 </div>
 
                 <div class="ta-member">
@@ -558,7 +1097,9 @@
                     <h3 class="ta-name">Jordan Walendom</h3>
                     <p class="ta-login">jwalendo</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hey! I'm Jordan and I'm a junior studying CS. I've lived between the Ivory Coast, Tunisia, and the USA throughout my life which makes all three feel like home for me. I love Liverpool FC, the Dallas Mavericks, and rap.</p>
+                    <p class="ta-bio">Hey! I'm Jordan and I'm a junior studying CS. I've lived between the Ivory Coast,
+                        Tunisia, and the USA throughout my life which makes all three feel like home for me. I love
+                        Liverpool FC, the Dallas Mavericks, and rap.</p>
                 </div>
 
                 <div class="ta-member">
@@ -569,7 +1110,9 @@
                     <h3 class="ta-name">Kaki Su</h3>
                     <p class="ta-login">jsu15</p>
                     <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">hallo! I'm a junior from Japan studying CS. I loooove my stuffed animal cats/dogs who are named after music genres. I also like classical music, Japanese sake, and eggs a lot. I like to go on spontaneous trips, but I also like to nap in my fuzzy blankets.</p>
+                    <p class="ta-bio">hallo! I'm a junior from Japan studying CS. I loooove my stuffed animal cats/dogs
+                        who are named after music genres. I also like classical music, Japanese sake, and eggs a lot. I
+                        like to go on spontaneous trips, but I also like to nap in my fuzzy blankets.</p>
                 </div>
 
                 <div class="ta-member">
@@ -580,7 +1123,9 @@
                     <h3 class="ta-name">Kelly Wang</h3>
                     <p class="ta-login">kwang111</p>
                     <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Hello! I am Kelly, a Junior from California concentrating in CS-Econ. I like digital illustration, listening to J-pop, and anime. I also like Salmon, especially in sushi.</p>
+                    <p class="ta-bio">Hello! I am Kelly, a Junior from California concentrating in CS-Econ. I like
+                        digital illustration, listening to J-pop, and anime. I also like Salmon, especially in sushi.
+                    </p>
                 </div>
 
                 <div class="ta-member">
@@ -591,7 +1136,9 @@
                     <h3 class="ta-name">Kenya Kimata</h3>
                     <p class="ta-login">//TODO!!</p>
                     <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Hi! I'm a junior from Vermont concentrating in Applied Mathematics and Computer Science. I like skiing and hiking and my favorite Trader Joe's snack is mini tacos! See you on zoom :)</p>
+                    <p class="ta-bio">Hi! I'm a junior from Vermont concentrating in Applied Mathematics and Computer
+                        Science. I like skiing and hiking and my favorite Trader Joe's snack is mini tacos! See you on
+                        zoom :)</p>
                 </div>
 
                 <div class="ta-member">
@@ -602,7 +1149,9 @@
                     <h3 class="ta-name">Kota Soda</h3>
                     <p class="ta-login">ksoda</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hey, I'm Kota! I'm a Junior studying APMA-CS from Tokyo. Outside of the classroom, I love baseball, going on runs, and making omelettes. My favorite magic school bus episode is the one where they go on the bus.</p>
+                    <p class="ta-bio">Hey, I'm Kota! I'm a Junior studying APMA-CS from Tokyo. Outside of the classroom,
+                        I love baseball, going on runs, and making omelettes. My favorite magic school bus episode is
+                        the one where they go on the bus.</p>
                 </div>
 
                 <div class="ta-member">
@@ -611,9 +1160,11 @@
                         <img class="ta-item" src="img/characters/mtaylo12.png">
                     </div>
                     <h3 class="ta-name">Marc Mapeke</h3>
-                    <p class="ta-login">//TODO!!</p>
-                    <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Hi, I'm Maya! I'm from Albuquerque, NM and I'm a junior studying APMA-CS. In a normal semester, you'd find me living in B&H drinking chai oatmilk lattes, in Steinert/Alumnae doing various music things, or riding horses on Brown's Equestrian team. I really only eat things with choclate in them, and chocolate peanut butter is the best combo.</p>
+                    <p class="ta-login">mmapeke</p>
+                    <p class="ta-pronouns">he/him/his</p>
+                    <p class="ta-bio">Hey everyone! I'm a junior from The Bronx, NYC. I'm doing a joint concentration in
+                        APMA-CS and some of my favorite pastimes recently have been listening to music, taking naps, and
+                        trying new food spots in Providence. Excited to meet y'all!</p>
                 </div>
 
                 <div class="ta-member">
@@ -624,7 +1175,8 @@
                     <h3 class="ta-name">Nitya Thakkar</h3>
                     <p class="ta-login">nthakka3</p>
                     <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Hi! I'm Nitya Thakkar and I'm a junior from Minnesota studying computer science. I love getting outdoors and anything to do with food :)</p>
+                    <p class="ta-bio">Hi! I'm Nitya Thakkar and I'm a junior from Minnesota studying computer science. I
+                        love getting outdoors and anything to do with food :)</p>
                 </div>
 
                 <div class="ta-member">
@@ -635,7 +1187,8 @@
                     <h3 class="ta-name">Peter Theodores</h3>
                     <p class="ta-login">ptheodor</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hi, I'm Peter! I'm a senior from Maine and I'm studying CS and Math. I play saxophone, and love playing board games and cooking.</p>
+                    <p class="ta-bio">Hi, I'm Peter! I'm a senior from Maine and I'm studying CS and Math. I play
+                        saxophone, and love playing board games and cooking.</p>
                 </div>
 
                 <div class="ta-member">
@@ -646,7 +1199,9 @@
                     <h3 class="ta-name">Peter Zubiago</h3>
                     <p class="ta-login">pzubiago</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hi! I'm a senior studying English and Computer Science. When I'm not in the CIT, you can probably find me watching/writing about television, reading pretentious novels, acting, or swimming! I'm excited to be your TA :)</p>
+                    <p class="ta-bio">Hi! I'm a senior studying English and Computer Science. When I'm not in the CIT,
+                        you can probably find me watching/writing about television, reading pretentious novels, acting,
+                        or swimming! I'm excited to be your TA :)</p>
                 </div>
 
                 <div class="ta-member">
@@ -655,9 +1210,11 @@
                         <img class="ta-item" src="img/characters/ry22.png">
                     </div>
                     <h3 class="ta-name">Richard Tang</h3>
-                    <p class="ta-login">//TODO!!</p>
-                    <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Hi! I'm a junior from the Bay Area studying CS and Internation and Political Affairs. I love penguins, politics, and Philz coffee :)</p>
+                    <p class="ta-login">rtang26</p>
+                    <p class="ta-pronouns">He/him</p>
+                    <p class="ta-bio">Hi everyone! I'm Richard, and I'm a sophomore from Columbus, OH concentrating in
+                        Math-CS :) I like running, biking, and baking, and I occasionally play viola or piano (also too
+                        much League). I've also watched The West Wing 7 times. Super excited to be your TA!</p>
                 </div>
 
                 <div class="ta-member">
@@ -666,9 +1223,11 @@
                         <img class="ta-item" src="img/characters/srockhil.png">
                     </div>
                     <h3 class="ta-name">Roman Hall</h3>
-                    <p class="ta-login">//TODO!!</p>
-                    <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Hi! I'm a junior from NY concentrating in Computer Science. My hobbies include eating and asking what food you're eating so you offer me some.  I love chilli + lime on anything!</p>
+                    <p class="ta-login">rhall10</p>
+                    <p class="ta-pronouns">He/him</p>
+                    <p class="ta-bio">Hi! I'm Roman, a junior from Brooklyn studying CS and Classics. I'm interested in
+                        software engineering/programming and languages in general. Outside of school I like biking,
+                        listening to/playing music, and spending time with friends! Excited to meet you guys :)</p>
                 </div>
 
                 <div class="ta-member">
@@ -679,7 +1238,8 @@
                     <h3 class="ta-name">Selen Tumay</h3>
                     <p class="ta-login">stumay</p>
                     <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Hello :0 I am a junior from south florida majoring in CS and Econ. In my free time I like to make string bracelets and do the nyt crossword. I &lt;3 dried mango for snack</p>
+                    <p class="ta-bio">Hello :0 I am a junior from south florida majoring in CS and Econ. In my free time
+                        I like to make string bracelets and do the nyt crossword. I &lt;3 dried mango for snack</p>
                 </div>
 
                 <div class="ta-member">
@@ -690,7 +1250,9 @@
                     <h3 class="ta-name">Rosanna Zhao</h3>
                     <p class="ta-login">rzhao22</p>
                     <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">Hey! I am a junior from Shanghai studying Computer Science-Economics. In my free time, I enjoy playing League of Legends, taking pictures of my two pet ragdoll kittens, and spending time with my friends.</p>
+                    <p class="ta-bio">Hey! I am a junior from Shanghai studying Computer Science-Economics. In my free
+                        time, I enjoy playing League of Legends, taking pictures of my two pet ragdoll kittens, and
+                        spending time with my friends.</p>
                 </div>
 
 
@@ -702,7 +1264,9 @@
                     <h3 class="ta-name">Sahil Bansal</h3>
                     <p class="ta-login">sbansa12</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hi! I'm a junior concentrating in CS. I'm from the US and grew up in Saudi Arabia and India. I love reading manga, being with family and friends, and watching cooking shows but never actually cooking anything!</p>
+                    <p class="ta-bio">Hi! I'm a junior concentrating in CS. I'm from the US and grew up in Saudi Arabia
+                        and India. I love reading manga, being with family and friends, and watching cooking shows but
+                        never actually cooking anything!</p>
                 </div>
 
                 <div class="ta-member">
@@ -713,7 +1277,9 @@
                     <h3 class="ta-name">Sheridan Feucht</h3>
                     <p class="ta-login">sfeucht</p>
                     <p class="ta-pronouns">she/her/hers</p>
-                    <p class="ta-bio">I'm Sheridan, a 3rd-year from Calgary, Canada concentrating in Computer Science. I love music, making art, and matcha. Currently re-reading The Silmarillion and Unfinished Tales. </p>
+                    <p class="ta-bio">I'm Sheridan, a 3rd-year from Calgary, Canada concentrating in Computer Science. I
+                        love music, making art, and matcha. Currently re-reading The Silmarillion and Unfinished Tales.
+                    </p>
                 </div>
 
                 <div class="ta-member">
@@ -724,7 +1290,9 @@
                     <h3 class="ta-name">Yifan Ruan</h3>
                     <p class="ta-login">yruan4</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hi, I'm a junior concentrating in computer science and math. My hobbies include swimming, beachcombing, and keeping plants and fish. I'm looking forward to meeting everyone this semester!</p>
+                    <p class="ta-bio">Hi, I'm a junior concentrating in computer science and math. My hobbies include
+                        swimming, beachcombing, and keeping plants and fish. I'm looking forward to meeting everyone
+                        this semester!</p>
                 </div>
 
                 <div class="ta-member">
@@ -733,9 +1301,11 @@
                         <img class="ta-item" src="img/characters/tballaku.png">
                     </div>
                     <h3 class="ta-name">Zain Asghar</h3>
-                    <p class="ta-login">//TODO!!</p>
+                    <p class="ta-login">zasghar1</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hi, I'm a junior concentrating in computer science and math. My hobbies include swimming, beachcombing, and keeping plants and fish. I'm looking forward to meeting everyone this semester!</p>
+                    <p class="ta-bio">Hi everyone, my name is Zain. I am a junior concentrating in CS from Washington
+                        DC/Pakistan/India, but I grew up in the UAE. In my free time, I enjoy playing/watching
+                        basketball, tennis, and badminton. </p>
                 </div>
 
                 <div class="ta-member">
@@ -746,22 +1316,24 @@
                     <h3 class="ta-name">Ziwen Zhou</h3>
                     <p class="ta-login">zzhou65</p>
                     <p class="ta-pronouns">he/him/his</p>
-                    <p class="ta-bio">Hi everyone! I'm a junior studying APMA/CS and I'm from Philadelphia, Pennsylvania. In my free time, I enjoy reading, spending time in nature, and playing chess. Looking forward to seeing all of you!</p>
+                    <p class="ta-bio">Hi everyone! I'm a junior studying APMA/CS and I'm from Philadelphia,
+                        Pennsylvania. In my free time, I enjoy reading, spending time in nature, and playing chess.
+                        Looking forward to seeing all of you!</p>
                 </div>
             </div>
         </div>
 
         <!-- Footer -->
         <footer>
-        <div class="container text-center">
-            <p>
-            &copy; 2020 CS0330 TA Staff
-            <span class="spacing">|</span>
-            <a href="http://cs.brown.edu">Computer Science Department</a>
-            <span class="spacing">|</span>
-            <a href="http://brown.edu">Brown University</a>
-            </p>
-        </div>
+            <div class="container text-center">
+                <p>
+                    &copy; 2020 CS0330 TA Staff
+                    <span class="spacing">|</span>
+                    <a href="http://cs.brown.edu">Computer Science Department</a>
+                    <span class="spacing">|</span>
+                    <a href="http://brown.edu">Brown University</a>
+                </p>
+            </div>
         </footer>
 
         <!-- Javascript files -->
@@ -769,6 +1341,7 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.easing.min.js"></script>
         <script src="js/cs33.js"></script>
-    </div>
-    </body>
+        </div>
+</body>
+
 </html>

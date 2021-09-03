@@ -64,13 +64,13 @@ ul {
 /* Tables */
 table {
 
-    background-color: #bacff5;
+    background-color: #cadaf5;
     font-size: 1.1em;
     margin-bottom: 40px;
 }
 
 tr:nth-child(2n+1) {
-    background-color: #fff2b7;
+    background-color: #c9f2f3;
 }
 
 th {
