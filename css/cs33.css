@@ -670,7 +670,7 @@ body {
   border-radius: 5px;
 }
 
-.course-logo-font{
+.course-logo-font, .course-logo-font:hover, .course-logo-font:focus {
     font-family: SchoolBus;
     font-size: 25px;
     color: #FED331;
