@@ -213,6 +213,9 @@ td, th {
 
 #assignments a {
     color: #0C457E;
+    border-radius: 5px;
+    background-color: rgb(245,231,158);
+    padding: 0px 4px;
 }
 
 #lectures {
